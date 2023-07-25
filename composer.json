@@ -1,0 +1,32 @@
+{
+    "name": "dadyo/sgqr",
+    "description": "Conception et Réalisation d'un Outil de Saisie et de Gestion de Compte-Rendu (SGCR)",
+    "type": "library",
+    "require": {
+        "symfony/console": "^6.3",
+        "doctrine/orm": "^2.15",
+        "phpmailer/phpmailer": "^6.8",
+        "nesbot/carbon": "^2.68",
+        "mews/purifier": "^3.4",
+        "guzzlehttp/guzzle": "^7.7",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7",
+        "phpstan/phpstan": "^1.10",
+        "tracy/tracy": "^2.10"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Dadyo\\Sgqr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DahoudG",
+            "email": "gbanedahoud@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
