@@ -1,8 +1,8 @@
 <?php
-// Fichier: CompteRendu.php
-// Description: Modèle pour représenter un compte-rendu
+// src/Dadyo/Sgcr/Model/CompteRendu.php
 
-// Classe CompteRendu pour représenter un compte-rendu
+namespace Dadyo\Sgcr\Model;
+
 class CompteRendu
 {
     private $id;
